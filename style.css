@@ -1,0 +1,48 @@
+body{
+    font-family: helvetica;
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 248, 207);
+    font-size: 30px;
+}
+
+input{
+    background-color: rgb(37, 31, 31);
+    width: 10%;
+    padding: 10px;
+    color: rgb(248, 239, 186);
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+}
+input:hover{
+    background-color: rgb(80, 255, 124);
+    color: black;
+    border-radius: 5px;
+}
+
+button{
+    width: 10%;
+    background-color: rgb(37, 31, 31);
+    color: rgb(248, 239, 186);
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.3s;
+    border: 3px;
+
+}
+button:hover{
+    background-color: rgb(238, 133, 242);
+    color: black;
+    border-radius: 5px;
+}
+
+#timer_container{
+    font-size: 100px;
+    padding-top: 7%;
+    padding-bottom: 6%;
+}
